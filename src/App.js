@@ -13,7 +13,7 @@ const  App = ()=> {
   case 'form':
     return <NewUserForm />
   default:
-    return <div><button onClick={() => setCurrentComponent('photos')}>Photos</button><button onClick={() => setCurrentComponent('form')}>User Form</button></div>;
+    return <div><h1>Task Photo Album</h1><div class="btn-group"><button onClick={() => setCurrentComponent('photos')}>Photos</button><button onClick={() => setCurrentComponent('form')}>User Form</button></div></div>;
   }
 }
 

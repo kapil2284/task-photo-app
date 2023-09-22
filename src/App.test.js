@@ -20,7 +20,7 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test('renders new user form component', async ()=>{
+test('renders new user form component and submits the form', async ()=>{
   render(<NewUserForm />);
 
   const submitBtn = screen.getByRole("button", { name: "Submit" });
