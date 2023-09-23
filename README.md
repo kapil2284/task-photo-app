@@ -8,11 +8,13 @@ User form is responsive
 
 Photo album is responsive as well, but because photo albums are displayed in original size. rendering overflows the size of small screens
 
-There can be lot of improvement done to display just thumbnails in the list and load the photo widget on hover
+There can be lot of improvement done to display just thumbnails in the list and load the photo widget on hover, thus making it better looking
 
-wrote one sample test case to submit form using react testing library, its written in App.test.js
+wrote one simple test case to submit form using react testing library, its written in App.test.js
 
 I have used controlled inputs to create the form and on submitting data is sent to server using POST request with JSON body
+
+No need to use redux as architecture of this application is fairly simple
 
 # Getting Started with Create React App
 
