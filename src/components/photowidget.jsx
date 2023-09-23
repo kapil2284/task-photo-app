@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Item from "./item";
+import '../styles/photowidget.css'
 const PhotoWidget = () => {
 
     const [albumList, setAlbumList] = useState([]);
@@ -16,7 +17,7 @@ const PhotoWidget = () => {
       },[]);
 
 
-    return <div> {isLoading ? (
+    return <div className="flex-container"> {isLoading ? (
         <p>Loading...</p>
       ) : (albumList && albumList.map(photo =>
         <Item key={photo.id} photo={photo}></Item>

@@ -1,9 +1,9 @@
 const Item = ({ photo }) => {
     return (
-      <button className="country-item">
+      <div className="country-item">
         <img src={photo.url} alt={photo.title} />
         {photo.name}
-      </button>
+      </div>
     );
   };
 
